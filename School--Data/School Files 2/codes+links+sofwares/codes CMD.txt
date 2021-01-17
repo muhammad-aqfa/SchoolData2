@@ -1,0 +1,34 @@
+npm install 
+npm init -y
+npm install nodemon --saveDev // save dev he creates depencises
+npm install express 
+npm install mssql
+npm start 
+
+
+tns create MyAppName
+tns run android --> make genymotion emolator running
+tns preview--> app preview code
+
+
+npm install -g @angular/cli  -->install //one time only with laptop 
+1.npm install --save-dev @angular/cli -->//with every project with nativescript install node_modules folder
+2.npm i --save-dev @nativescript/schematics //every time we have app with native script install node_modules folder
+npm install --save @fortawesome/fontawesome-free  // -->with web only  does not work with App
+npm install -g nativescript -->//one time only with laptoop
+npm install cors --> //connect to another server with database with nodejs only 
+
+
+
+ng generate component folderName/app --skipTests
+ng serve -o 
+ng install bootstarp jquery
+ng generate service fileName
+ng new -c=@nativescript/schematics my-mobile-app
+ng new projectName
+
+npm install nodemailer ---> send code  to mail 
+
+
+ 
+

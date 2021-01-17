@@ -1,0 +1,27 @@
+export default  class user1
+{
+    UserName;
+    password;
+    Repassword;
+    image;
+    Name;
+    LastName;
+    Email;
+    Date;
+    city;
+    street;
+    streetnumber;
+    constructor(UserName,password,Repassword,image,Name,LastName,Email,date,city,street,streetNumber){
+        this.UserName=UserName;
+        this.password=password;
+        this.Repassword=Repassword;
+        this.image=image;
+        this.Name=Name;
+        this.LastName=LastName;
+        this.Email=Email;
+        this.Date=date;
+        this.city=city;
+        this.street=street;
+        this.streetNumber=streetNumber;    
+    }  
+}

@@ -1,0 +1,25 @@
+table{
+  width: 80%;
+  margin:1.5em auto;
+}
+
+table tr td{
+  text-align: center;
+  height: 55px
+}
+
+.primary{
+  background-color: yellow;
+  color:black;
+  font-weight: bold;
+}
+
+.even {
+  background-color: red;
+  color: white;
+}
+
+.odd {
+    background-color: green;
+    color: black;
+}

@@ -1,0 +1,44 @@
+body{
+    direction: rtl;
+}
+
+table{
+    width:80%;
+    margin: 1.5em auto;
+    border-collapse: collapse;
+}
+
+table tr td{
+    border: 1px solid #000;
+    width: 33%;
+    height:120px;
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(100, 142, 219);
+}
+
+table tr td:nth-child(even){
+    background-color: rgb(119, 12, 62);
+}
+
+table tr td img{
+    height:100%;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+#header span{
+    color:#f00;
+}
+
+#header img{
+    opacity: 1;
+    width: 48px;
+    height:48px;
+}
+
+/* #wrapper{
+
+} */

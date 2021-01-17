@@ -1,0 +1,58 @@
+body{
+    background-image: url(../assets/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 1536px 900px;
+}
+.div  {
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 260px;
+    background-color: white;
+    height: 40px;
+    box-shadow: 2px 2px 6px 6px white;
+}
+#delete{
+   position: absolute;
+     right: 68%;
+     margin-top: 25px;
+    background-color:white;
+    border: none;
+    color: black;
+}
+#update{
+    border: none;
+    background-color: white;
+    color: black;
+    position: absolute;
+    right: 70%;
+    margin-top: 27px;
+}
+#delete:hover {
+    color: red;
+  }
+  #update:hover {
+    color: blue;
+  }
+strong{
+    margin-right: 120px;
+}
+.div2 a:hover{
+    color: yellowgreen;
+}
+a{
+    margin-right: 100px;
+}
+.div2 {
+  background-color: white;
+    width: 80%;
+    height: 100px;
+    box-shadow: 2px 2px 6px 6px white;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
+
+

@@ -1,0 +1,51 @@
+.body1{
+    background-image: url(../assets/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 1536px 900px;
+    }
+    label{
+        position: absolute;
+        top:25%;
+        right:40%;
+        background-color: ghostwhite;
+        width: 350px;
+        height: 300px;
+        padding: 20px;
+        border-radius: 50px;
+        box-shadow: 2px 2px 5px 5px white;
+    }
+    #field1{
+        width: 350px;
+        height: 20px;
+        background-color: white;
+    }
+    #field2{
+        width: 350px;
+        height: 20px;
+        background-color: white;
+    }
+    .div1{
+        font-size:20px;
+        color:black;
+        margin-top:60px;
+    }
+    .div2{
+        font-size:20px;
+        color:black
+    }
+    #button{
+        margin-top: 40px;
+        cursor: pointer;
+        width: 100%;
+        cursor: pointer;
+        padding: 4px;
+        border-radius: 20px;
+        border-color: white;
+        background-color:#fece0c;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    .SignIn{
+        position: absolute;
+        font-size: 30px;
+        right:250px;
+    }

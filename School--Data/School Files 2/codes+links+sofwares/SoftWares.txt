@@ -1,0 +1,33 @@
+visual studio 
+visual studio code 
+packages in visual studio code :
+{
+nativeScript,  only with app 
+icons, 
+Angular Snippets,  
+bootstrap,
+nativeScript+Angular Snippets --> only with app 
+}
+android studio
+insomina
+Node.js https://nodejs.org/en/download/
+git bash
+Unity
+Sql Server Management
+python
+whatsUp
+TeamViewer
+virual box 
+upuntu
+winRaR
+SubLime
+BATTLE.NET 
+GameLoop-codm
+discord
+cisco packet tracer
+native script playground download  phone
+native script preview phone download
+genymotion
+azure dataStudio
+
+

@@ -1,0 +1,46 @@
+FileName-->@angular.json
+ "styles": [
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "./node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+            ],
+"scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+
+FileName-->@app.moudle.ts
+import { FormsModule } from '@angular/forms';
+import{HttpClientModule} from '@angular/common/http' -->only with webSite 
+import{RouterModule,Router} from '@angular/router'
+
+@imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule
+    HttpClientModule
+ ],
+
+
+FileName->Services
+to connect to Server
+import{HttpClient} from '@angular/common/http'//-->only one part from HttpClientModule
+import{Observable} from 'rxjs';--> waiting to get Answer from server
+
+
+
+ <Label [text]="(item.isDone == true) ? '&#xf058;' : '&#xf111;'" class="fa-regular" row="0" col="0"></Label>
+-------------------
+.fa-brands{
+    font-family: "Font Awesome 5 Brands Regular", "fa-brands-400";
+}
+
+.fa-regular{
+    font-family: "Font Awesome 5 Free Regular", "fa-regular-400";
+    font-weight: 400;
+}
+
+.fa-solid{
+    font-family: "Font Awesome 5 Free Solid", "fa-solid-900";
+    font-weight: 900;
+}

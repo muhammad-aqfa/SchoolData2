@@ -1,0 +1,10 @@
+body{
+    direction: rtl;
+}
+
+.info{
+    width:30%;
+    margin:20px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:#fff;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>טפסים</title>
+    <link href="page1.css" rel="Stylesheet" />
+    <script  src="../js1/functions.js"></script>
+    <script  src="../js1/cities.js"></script>
+    <script defer type="module" src="../js1/main.js"></script>
+</head>
+<body dir="rtl" class="body">
+<form>
+  <div class="CONTACTUS">
+    הרשם
+  </div>
+  <div> שם משתמש: </div>
+   <input class="inputfield" type="text" id="UserName" required> 
+   <div>  סיסמה : </div>
+  <input class="inputfield" type="password" id="password"required >
+  <div>אימות סיסמה :</div>
+  <input class="inputfield" type="password"  id="Resetpassword" required>
+  <div>
+    תאריך לידה :
+  </div> 
+  <input class="inputfield" type="date"   id="date">
+  <div>
+    שם פרטי:
+  </div>
+  <input  class="inputfield" type="text"   id="Name" required />
+  <div>
+    שם משפחה: 
+  </div>
+  <input class="inputfield" type="text"    id="LastName" required />
+  <div>
+    תמונה: 
+  </div>
+  <input class="inputfield" type="file"  id="image" />
+  <div>
+    מייל 
+  </div>
+  <input class="inputfield" type="email" placeholder="מייל"  id="email"  required />
+  <div>
+    עיר 
+    <input type="text" class="inputfield" id="city" aria-describedby="cityHelp" list="datalist" required>
+    <datalist id="datalist"></datalist>
+</div>
+  <div>
+    רחוב 
+  </div>
+  <input class="inputfield" type="text"  placeholder="רחוב"id="street" required />
+  <div>
+    מספר 
+  </div>
+  <input class="inputfield" type="number" placeholder="מספר רחוב" id="streetnumber" required   />
+  <br> <br>
+  <div>
+  <button  type="submit" id="savebtn">Submit</button>
+  </div>
+</form>
+</body>
+</html>

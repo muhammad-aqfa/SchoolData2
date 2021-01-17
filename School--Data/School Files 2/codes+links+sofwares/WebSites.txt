@@ -1,0 +1,8 @@
+https://nodejs.org/en/download/
+https://play.nativescript.org/
+https://docs.nativescript.org/angular/start/quick-setup
+https://docs.nativescript.org/angular/tooling/angular-cli
+https://nativescripting.com/course/nativescript-with-angular-getting-started-guide
+http://member3.mywindowshosting.com/account/account_screen
+https://www.npmjs.com/
+https://expressjs.com/

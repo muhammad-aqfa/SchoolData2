@@ -1,0 +1,6 @@
+Subscribe--->Waiting for reply from server
+@Input --->we can take paramters from another commponet
+Observable --> waiting to get Answer from server
+emit-->connect  event with another componnet 
+@output()--->Return data to componnet
+new EventEmitter --> Moudle form javaScript  func 

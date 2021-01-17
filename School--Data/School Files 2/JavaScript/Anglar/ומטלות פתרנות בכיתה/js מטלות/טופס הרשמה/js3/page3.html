@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="page3.css" rel="Stylesheet" />
+    <script  defer src="../js3/main.js"></script>
+    <title>profile</title>
+</head>
+<body dir="rtl">
+        <form>
+           <strong>
+            <div id="profile"> <a>פרופיל</a></div>
+           </strong> 
+            <label>         
+                    <dl>
+                        <dt> <img id="img" src="../assets/p.png"></dt>              
+                       <input id="selectimg" type="file"  onchange="changeimg(this)">
+                       <button  type="submit" id="changeDeatils" class="allbtns">עתכן פרטים</button>
+                       <button  type="submit" id="game"  class="allbtns">למשחק</button>
+                       <button  type="submit" id="logout" class="allbtns">התנתק</button>
+                    </dl>
+            </label>
+            <div  id= "name"></div>
+            <div class="Email"><a id="email"></a></div>    
+            <div class="City"><a id="city"></a> </div> 
+            <div class="Birthday"><a id="birthday"></a> </div> 
+        </form>
+</body>
+</html>
